@@ -21,8 +21,8 @@ useEffect(()=>{
    }
 
 },[])
-console.log(Array.isArray(userData))
-console.log(userData);
+// console.log(Array.isArray(userData))
+// console.log(userData);
   const handleLogin = (email,password)=>{
     if (email == 'admin@me.com' && password == '123') {
       setUser('admin')
